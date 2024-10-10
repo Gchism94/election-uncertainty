@@ -2,6 +2,7 @@
 title: "Polling Paradoxes"
 subtitle: "The Wibbly-Wobbly, Timey-Wimey World of Election Uncertainty"
 author: "Dr. Greg Chism"
+footer: "[🔗 electionssuck.com](https://electionssuck.com/)"
 institute: U of A InfoSci + DataLab
 title-slide-attributes:
   data-slide-number: none
@@ -177,6 +178,7 @@ Lost ❌
 :::
 
 ## The dangers of favorability: Maps
+
 ![](images/favorability-3.png){fig-align="center" width="735"}
 
 ## Obscurity/Blurriness {.smaller}
@@ -233,7 +235,7 @@ Lost ❌
 
 **Purpose:** helpful to see various outcomes for projections/forecasts
 
-![](images/scenarios.png){fig-align="center" width="621"}
+![](images/scenarios.png){fig-align="center" width="632"}
 
 ::: incremental
 -   **Pros:** Uncertainty is displayed more explicitly
