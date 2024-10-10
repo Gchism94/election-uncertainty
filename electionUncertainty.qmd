@@ -1,0 +1,258 @@
+---
+title: "Polling Paradoxes"
+subtitle: "The Wibbly-Wobbly, Timey-Wimey World of Election Uncertainty"
+author: "Dr. Greg Chism"
+institute: U of A InfoSci + DataLab
+title-slide-attributes:
+  data-slide-number: none
+format:
+  revealjs:
+    theme: styles.scss
+    transition: fade
+    slide-number: true
+    chalkboard: true
+editor: visual
+execute:
+  freeze: auto
+  echo: true
+auto-stretch: false
+resource_files:
+- styles.scss
+---
+
+## 
+
+::: columns
+::: {.column width="50%"}
+![](images/gop.jpeg){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+![](images/dems.jpeg){fig-align="center" width="398"}
+:::
+:::
+
+::: {.html .larger .fragment style="text-align: center"}
+😮‍💨
+:::
+
+## Playing
+
+You have a 90% change of winning...
+
+![](images/Disappearing_dots.gif){fig-align="center" width="500"}
+
+# Sorry, you lost. 🙂
+
+# How does that make you feel?
+
+## We are bad at judging uncertainty
+
+::: incremental
+-   You had a 10% chance of losing
+-   One in ten playing this game will lost
+-   90% chance of winning is nowhere near a certain win
+:::
+
+# Uncertainty
+
+![](images/2016-538.png){fig-align="center"}
+
+::: columns
+::: {.column .large width="50%" style="text-align: center;"}
+::: fragment
+Lost ❌
+:::
+:::
+
+::: {.column .large .fragment width="50%" style="text-align: center;"}
+✅ Won
+:::
+:::
+
+## Uncertainty {.smaller}
+
+**How can we understand this result?**
+
+![](images/2016-538.png){fig-align="center"}
+
+::: columns
+::: {.column .large width="50%" style="text-align: center;"}
+Lost ❌
+:::
+
+::: {.column .large width="50%" style="text-align: center;"}
+✅ Won
+:::
+:::
+
+::: fragment
+**Probability vs. Certainty**: A 71.4% chance for Clinton meant she was *favored*, but not guaranteed to win.
+:::
+
+## Why have polls become so bad?..
+
+![](images/SR_24.08.28_facts-about-polling_2.webp){fig-align="center"}
+
+## Well, its not actually that bad...
+
+![](images/polling-error-1.png)
+
+## Well, its not actually that bad...
+
+![](images/polling-error-2.png)
+
+## Well, its not actually that bad...
+
+![](images/polling-error-3.png)
+
+## Polling has change a lot {style="text-align: center;"}
+
+![](images/number-polls.png){fig-align="center" width="503"}
+
+## Polling has change alot {.xsmall}
+
+::: columns
+::: {.column .incremental width="60%"}
+-   **Public opinion polls**. Survey the opinions of respondents on any number of topics.
+
+-   **Baseline/benchmark polls**. Baselines levels of voters’ perceptions, knowledge, opinions.
+
+-   **Brushfire polls**. Voter sentiment during a race: “favorable” and “unfavorable”.
+
+-   **Tracking polls**. Shorter, smaller daily polls that track how perceptions, attitudes, and opinions change.
+
+-   **Exit polls**. Exiting polling locations on Election Day, to learn how they voted.
+
+-   **Push polls**. Worded to lead the respondent toward a certain response.
+
+-   **Straw polls**. Unofficial ad hoc vote.
+:::
+
+::: {.column width="40%"}
+::: fragment
+![](images/number-polls.png){fig-align="center"}
+:::
+
+### 😵‍💫 {.fragment style="text-align: center;"}
+:::
+:::
+
+## The dangers of favorability: **Outcome** {.smaller}
+
+![](images/favorability-1.png){fig-align="center" width="808"}
+
+## So favorability comes from polls?
+
+![](images/favorability-5.png){fig-align="center"}
+
+## So favorability comes from polls?
+
+![](images/favorability-4.png){fig-align="center"}
+
+**Not always... 😮‍💨**
+
+# Election uncertainty
+
+## Election uncertainty: 538 Dashboard {.smaller}
+
+**Accuracy and precision matter most**
+
+```{=html}
+<div class="iframe-container">
+        <iframe src="https://projects.fivethirtyeight.com/2024-election-forecast/#electoral-college-probability" title="Election Scenarios 538">
+        </iframe>
+</div>
+```
+## Simulations {.smaller}
+
+**Purpose:** present a range of possibilities
+
+![](images/favorability-1.png){fig-align="center" width="539"}
+
+::: incremental
+-   **Pros:** give a sense of build-up and possibilities
+
+-   **Cons:** data overload can lead to interpretation difficulty
+:::
+
+## The dangers of favorability: Maps
+![](images/favorability-3.png){fig-align="center" width="735"}
+
+## Obscurity/Blurriness {.smaller}
+
+::: columns
+::: {.column width="55%"}
+![](images/winding-path.png){fig-align="center" width="377"}
+:::
+
+::: {.column width="45%"}
+**Purpose:** Fogginess is a powerful visual metaphor
+
+::: incremental
+-   **Pros:** Intuitive metaphor
+
+-   **Cons:** Subject to different interpretation; hard to show levels of uncertainty
+:::
+:::
+:::
+
+## Error Bars/Lines {.smaller}
+
+**Purpose:** indicate the uncertainty in a quantifiable measure
+
+::: panel-tabset
+## NYT Election Dials
+
+![](images/needle.png){fig-align="center" width="765"}
+
+## The Jitter!
+
+![](images/needle.gif){fig-align="center" width="450"}
+:::
+
+::: incremental
+-   **Pros:** Useful to compare multiple estimates; easily understood
+
+-   **Cons:** Details in the data can get lost if not represented properly.
+:::
+
+## Distributions {.smaller}
+
+**Purpose:** Show the spread of possible values
+
+![](images/distributions.png){fig-align="center" width="933"}
+
+::: incremental
+-   **Pros**: Judgments made on sample vs. means/median
+
+-   **Cons:** Distributions may need additional explanations
+:::
+
+## Multiple outcomes {.smaller}
+
+**Purpose:** helpful to see various outcomes for projections/forecasts
+
+![](images/scenarios.png){fig-align="center" width="621"}
+
+::: incremental
+-   **Pros:** Uncertainty is displayed more explicitly
+
+-   **Cons:** Too many possibilities can lead to confusion
+:::
+
+# Now what?.. 🫨
+
+## Conclusions
+
+::: incremental
+-   Know that 28.6% still gives a significant likelihood for that candidate's success.
+
+-   Understand that polls have changed a lot, but are overall still good.
+
+-   Polling is more accurate the closer the election is.
+
+-   Pick the visual that is clearest to you.
+:::
+
+# Take a breath, its almost over 🙏 {style="text-align: center;"}

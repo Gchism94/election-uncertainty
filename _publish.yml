@@ -1,0 +1,4 @@
+- source: electionUncertainty.qmd
+  netlify:
+    - id: a74fe243-41af-48ff-83bf-aa5bab5a9be4
+      url: 'https://electionssuck.com'
